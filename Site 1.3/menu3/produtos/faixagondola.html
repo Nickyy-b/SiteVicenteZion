@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+    <title>FAIXA GONDÔLA</title>
+    
+</head>
+<body>
+    <header>
+    <div class="logo">
+            <div class="menu-btn">
+                <i class="fas fa-bars"></i>
+            </div>
+            <div class="logo-menu">
+                <a href="logo1"><img src="./imagens/logo1.png"  alt="logo" width="25%" height="25%">
+                </a>
+            </div>
+                <div class="side-bar">
+                    <div class="close-btn">
+                            <i class="fas fa-times"></i> 
+                        </div>
+                            <div class="menu">
+                                <div class="item"><a href="../index.html"><i class="fas fa-home"></i>ÍNICIO</a></div>
+                                <div class="item">
+                                    <a class="sub-btn"><i class="fas fa-store"></i>PRODUTOS<i class="fas fa-angle-right dropdown"></i></a>
+                                    <div class="sub-menu">
+                                        <a class="sub-btn">BANNERS<i class="fas fa-angle-right dropdown"></i></a>
+                                        <div class="sub-sub-menu">
+                                            <a href="./bannerL.html" class="">Banner "L"</a>
+                                            <a href="./bannerX.html" class="">Banner "X"</a>
+                                            <a href="./WindBanner.html" class="">Wind Banner</a>
+                                        </div>
+                                        <a class="sub-btn">TOTEM<i class="fas fa-angle-right dropdown"></i></a>
+                                        <div class="sub-sub-menu">
+                                            <a href="./personalizados.html" class="">Personalizado</a>
+                                        </div>
+                                        <a href="./cavalete.html" class="sub-item">CAVALETE DE PVC </a>
+                                        <a href="./balcao.html" class="sub-item">BALCÃO PROMOCINAL</a>
+                                        <a href="./windflyband.html" class="sub-item">WIND FLY BANDEIRA </a>
+                                        <a href="./popupbackdrop.html" class="sub-item">POP UP BACKDROP </a>
+                                        <a href="./wobbler.html" class="sub-item">WOBBLER </a>
+                                        <a href="./faixagondola.html" class="sub-item">FAIXA GÔNDOLA</a>
+                                        </a>
+                                    </div>
+                                </div>
+                                <div class="item"><a href="#"><i class="fas fa-th"></i>ORÇAMENTOS</a></div>
+                                <div class="item"><a href="#"><i class="fas fa-th"></i>CONTATOS</a></div>
+                        <div class="item"><a href="#"><i class="fas fa-info-circle"></i>SOBRE NÓS</a></div>
+                 </div>
+            </div>
+        </div>
+    </header>
+    <section class="main">
+        <h1>Sidebar Menu with<br>Sub-Menus</h1>
+    </section>
+    <footer>
+        <section id="contact-section">
+            <div class="container">
+                <h2>Contate-nos</h2>
+                    <p>Se deseja fazer um orçamento entre em contato conosco!</p>
+                    <div class="contact-form">
+                        
+                    <!--First grid section-->
+                    <div>
+                        <i class="fa fa-map-marker"></i><span class="form-info">Rua Vicente Ciliberto, Alphaville - SP</span><br>
+                        <i class="fa fa-phone"></i><span class="form-info">Telefone: 11 940028922</span><br>
+                        <i class="fa fa-envelope"></i><span class="form-info">ZionSign@Outlook.com</span>
+                    </div>
+                    <!--Second grid-->
+
+                    <div>
+                        <form class="form" method="POST" action="../email.php">
+                            <input type="text" name="nome" placeholder="Nome" required/>
+                            <input type="text" name="sobrenome" placeholder="Sobrenome" required/>
+                            <input type="text" name="email" placeholder="E-mail" required/>
+                            <input type="text" name="telefone" placeholder="Telefone" required/>
+                            <textarea name="message" placeholder="Digite sua mensagem..." rows="5" required></textarea>
+                            <button class="submit" value="enviar">Enviar</button>
+                        </form>
+                    </div>
+                    </div>
+            </div>
+        </section>
+    </footer>
+    <script type="text/javascript" src="../funcoes.js"></script>
+</body>
+</html>
